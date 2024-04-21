@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           alias="origin"
+           fetch="git@github.com:iwannastudy"
+           review="https://android-review.googlesource.com/" />    
+  
+  <project path="linuxPrograms" name="linuxPrograms" revision="main" remote="github"/>
+  
+  <project path="linux_driver" name="linux_driver" revision="master" remote="github"/>
+  
+  <default revision="master" remote="github" sync-j="4" />
+
+<!-- ... -->
+
+</manifest>
